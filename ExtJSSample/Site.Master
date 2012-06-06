@@ -1,0 +1,25 @@
+﻿<%@ Master
+    Language="C#"
+    AutoEventWireup="true"
+    CodeBehind="Site.master.cs"
+    Inherits="ExtJSSample.SiteMaster"
+%><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <title></title>
+    <link href="~/Styles/Site.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="Scripts/jquery-1.4.1.js"></script>
+
+    <!-- http://www.sencha.com/products/extjs/download/ext-js-4.0.7/ -->
+    <link href="http://cdn.sencha.io/ext-4.0.7-gpl/resources/css/ext-all.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="http://cdn.sencha.io/ext-4.0.7-gpl/ext-all.js"></script>
+
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server"/>
+</head>
+<body>
+    <form runat="server">
+        <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+    </form>
+</body>
+</html>
